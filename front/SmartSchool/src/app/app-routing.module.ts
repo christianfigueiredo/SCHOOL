@@ -6,7 +6,8 @@ import { PerfilComponent } from './perfil/perfil.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 
 const routes: Routes = [
-
+  
+  {  path:'', redirectTo:'dashboard', pathMatch:'full' },
   {  path:'professores', component:ProfessoresComponent },
   {  path:'alunos', component:AlunosComponent },
   {  path:'perfil', component:PerfilComponent },
