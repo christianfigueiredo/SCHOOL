@@ -1,4 +1,7 @@
-<p>alunos works!</p>
-<ul *ngFor="let aluno of alunos">
-    <li>{{aluno.name}}</li>        
+<h1>{{titulo}}</h1>
+<ul>
+    
+    <li *ngFor="let aluno of alunos">
+        {{aluno.id}} - {{aluno.name}} {{aluno.sobrenome}}
+    </li>        
 </ul>
